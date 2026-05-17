@@ -1,1 +1,9 @@
-<h1>It works</h1>
+<label for="n1">Number 1</label> <br/>
+<input type="number" id="n1" [(ngModel)]="n1" /> <br/><br/>
+
+<label for="n2">Number 2</label> <br/>
+<input type="number" id="n2" [(ngModel)]="n2" /> <br/><br/>
+
+<input type="button" value="Add" (click)="addNumbers()"/>
+
+<h3>Result: {{ result }} </h3>
