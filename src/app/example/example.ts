@@ -18,6 +18,9 @@ export class Example {
       this.result = "No queremos números negativos";
     } else {
       this.result = String(this.n1 + this.n2);
+      if (this.result == "3.14") {
+        this.result = "π";
+      }
     }
   }
 }
